@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Profiles</title>
+	<style>
+		body{
+			background-color: #EE7674;
+			margin:0;
+			padding: 0;
+		}
+		h1{
+			background-color: #4A3267;
+			color: whitesmoke;
+			margin: 0;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			top: 0;
+			font-size: 40px;
+		}
+		a{
+			position: relative;
+			color: whitesmoke;
+			font-family: 'Poppins', sans-serif;
+			text-decoration: none;
+		}
+		nav{
+			background-color: #4A3267;
+			margin: 0;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			position: -webkit-sticky; 
+			position: sticky;
+			top: 0;
+			font-size: 18px;
+			z-index: 2;
+		}
+		.img2x2{
+			margin-left: 30px;
+			margin-bottom: 30px;
+			margin-top: 20px;
+			display: flex;
+			width: 360px;
+			aspect-ratio: 1;
+			box-shadow: 0 0 5px 2px #000;
+			margin-right: 5px;
+			float: left;
+			opacity: 100%;
+		}
+		.imgprof{
+			margin-top: 30px ;
+			margin-right: 40px;
+			margin-bottom: 20px;
+			display: flex;
+			height: 280px;
+			aspect-ratio: 1;
+			box-shadow: 0 0 6px 2px black;
+			float: left;
+		}
+		.container{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.info{
+			color: whitesmoke;
+			margin-left: 17vw ;
+			margin-right: 17vw;
+			margin-top: 0;
+			margin-bottom: 20px;
+			font-size: 23px;
+			padding-left: 60px;
+			overflow: hidden;
+			background-color: #F9B5AC;
+			border-radius: 15px;
+			display: inherit;
+			border-right: cyan;
+			justify-content: center;
+			
+		}
+		.gallery {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+			grid-gap: 10px;
+			margin-top: 20px;
+			margin-right: 60px;
+			margin-bottom: 60px;
+			padding: 10px;
+		}
+		.gallery img {
+			width: 100%;
+			height: auto;
+			border-radius: 10px;
+			box-shadow: 0 0 8px 2px #000;
+			transition: transform 0.3s ease-in-out;
+		}
+
+		.gallery img:hover {
+			transform: scale(1.1);
+		}
+		a:hover{
+			background-color: #E6D1F2;
+			color: black;
+		}
+		.bio{
+			margin-left: 60px;
+			margin-top: 70px;
+		}
+		.bio ul{
+			margin-left: 160px;
+			display: flex;
+			margin-top: -30px;
+			padding-top: 0;
+		}
+		h2{
+			display: flex;
+			justify-content: center;
+			font-size: 50px;
+			margin-top: 0;
+			margin: 0;
+			margin-left: -30px;
+
+		}
+
+		
+	</style>
+
+</head>
+<body>
+	<header >
+		<h1>STUDENT PROFILE</h1>
+	</header>
+	<nav>
+
+		<p><a href="#Antoinette">Antoinette's Profile</a> <a style="margin-left: 160px;"href="#Dwight">Dwight Jairo's Profile</a></p>
+	</nav>
+	<div class="container" id="Antoinette">
+		<div class="bio" >
+		<br>
+		<div class="info">
+		<h2>Antoinette Cabang</h2>
+		<div class="imgprof">
+			<img src="img\antonreeses.jpg" title="delulu" alt="Antoinette">
+		</div>
+
+			<!--personal information-->
+			<p>Age: <b>20</b> </p>
+			<p>Birthday: <b>July 09, 2003</b> </p>
+			<p>Address: <b>Villa Julita Subd. 8th Ave #58 City of San Fernando Pampanga</b> </p>
+			<p>Contact Number: <b>0956 763 2459</b> </p>
+			<p>Email: <b>2022308454@dhvsu.edu.ph</b> </p>
+			<p>Course: <b>Computer Science</b></p>
+			<p>Year: <b>2nd Year</b> </p>
+			<p>Section: <b>B</b> </p>
+			<p>Subjects Enrolled: 
+				<br>
+				<b>-Mobile Application Development</b>
+				<br>
+				<b>-Readings in Philippine History</b> 
+				<br>
+				<b>-Database Programming</b>
+				<br>
+				<b>-Design Analysis and Algorithm</b>
+				<br>
+				<b>-System Analysis and Design</b>
+				<br>
+				<b>-Web Application and Development</b>
+				<br>
+				<b>-Probability and Statistics</b>
+				<br>
+				<b>-Menu of Dance, Sports, Group Exercide, Outdoor, and Adventure Activities 2</b>      
+			</p>
+				<p>Other Information:</p>
+				<ul><b>
+					<li>Pronouns: She / Her</li>
+					<li>Loves listening to music, especially songs of BLACKPINK.</li>
+					<li>In her free time, she enjoy reading Books, Manga, and Manhwa.</li>
+					<li>Enjoys playing games, particularly horror ones.</li>
+					<li>Motto: “I think I can. I know I can” – Jennifer Wittwer</li>
+				</b></ul>
+			<div class="gallery">
+				<img src="img\antoinette\img3.jpg">
+				<img src="img\antoinette\img2.jpg">
+				<img src="img\antoinette\img1.jpg">
+				<img src="img\antoinette\img4.jpg">
+				<img src="img\antoinette\img5.jpg">
+				<img src="img\antoinette\img6.jpg">
+			</div>	
+		</div>
+	</div>
+	</div>
+	<br><br>
+<hr>
+	
+	<div class="container" id="Dwight">
+		<div class="bio" >
+		<br>
+			<div class="info">
+			<h2>Dwight Jairo C. Pingul</h2>
+			<div class="imgprof">
+			<img src="img\dwightpogi.jpg" title="yato" alt="Dwight Jairo">
+			</div>
+
+			<!--personal information-->
+			<p>Age: <b>20</b> </p>
+			<p>Birthday: <b>December 23, 2003</b> </p>
+			<p>Address: <b>District 8, Blk 73, Lot 12 Pandacaqui Mexico Pampanga</b> </p>
+			<p>Contact Number: <b>0968 379 3466</b> </p>
+			<p>Email: <b>2022308313@dhvsu.edu.ph</b> </p>
+			<p>Course: <b>Computer Science</b></p>
+			<p>Year: <b>2nd Year</b> </p>
+			<p>Section: <b>B</b> </p>
+			<p>Subjects Enrolled: 
+				<br>
+				<b>-Mobile Application Development</b>
+				<br>
+				<b>-Readings in Philippine History</b> 
+				<br>
+				<b>-Database Programming</b>
+				<br>
+				<b>-Design Analysis and Algorithm</b>
+				<br>
+				<b>-System Analysis and Design</b>
+				<br>
+				<b>-Web Application and Development</b>
+				<br>
+				<b>-Probability and Statistics</b>
+				<br>
+				<b>-Menu of Dance, Sports, Group Exercide, Outdoor, and Adventure Activities 2</b>      
+			</p>
+				<p>Other Information: </p>
+				<ul><b>
+					<li>Pronouns: He / Him</li>
+					<li>He enjoys reading Manhwa and Manga, specially the "The Hole is Open."</li>
+					<li>Likes to listen to music, his favorite artist is Hev Abi.</li>
+					<li>He finds joy in playing online games.</li>
+					<li>His adventurous spirit drives them to constantly seek out new experiences.</li>
+					<li>Motto: “EDI TIPAKLONG" - Manny Pacquiao</li>
+				</b></ul>
+
+			<div class="gallery">
+				<img src="img\dwight\img1.jpg">
+				<img src="img\dwight\img2.jpg">
+				<img src="img\dwight\img3.jpg">
+				<img src="img\dwight\img4.jpg">
+				<img src="img\dwight\img5.jpg">
+				<img src="img\dwight\img6.jpg">
+				
+			</div>
+		</div>
+	</div>
+
+	</div>
+
+	<br><br><br><br> <br><br><br>
+	
+</body>
+</html>
+
+<!-- CABANG, ANTOINETTE & 
+	 PINGUL, DWIGHT JAIRO C. -->
